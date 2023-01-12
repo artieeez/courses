@@ -1,0 +1,32 @@
+2023-01-07 15:54:35.767 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-01-07 15:54:35.920 -03:00 [DBG] Hosting starting
+2023-01-07 15:54:36.164 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7F2ACB59E0EDC7B255A869FC95670002F9ACD045)
+2023-01-07 15:54:36.289 -03:00 [INF] Now listening on: https://localhost:7287
+2023-01-07 15:54:36.291 -03:00 [INF] Now listening on: http://localhost:5287
+2023-01-07 15:54:36.292 -03:00 [DBG] Loaded hosting startup assembly CityInfo.Api
+2023-01-07 15:54:36.293 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-01-07 15:54:36.294 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-01-07 15:54:36.295 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-07 15:54:36.296 -03:00 [INF] Hosting environment: Development
+2023-01-07 15:54:36.297 -03:00 [INF] Content root path: C:\Users\artur\Documents\Courses\Kevin Dockx\ASP.NET Fundamentals\CityInfo\CityInfo.Api\
+2023-01-07 15:54:36.297 -03:00 [DBG] Hosting started
+2023-01-07 15:54:36.654 -03:00 [DBG] Connection id "0HMNGS2FOPK2C" accepted.
+2023-01-07 15:54:36.654 -03:00 [DBG] Connection id "0HMNGS2FOPK2D" accepted.
+2023-01-07 15:54:36.658 -03:00 [DBG] Connection id "0HMNGS2FOPK2D" started.
+2023-01-07 15:54:36.658 -03:00 [DBG] Connection id "0HMNGS2FOPK2C" started.
+2023-01-07 15:54:36.666 -03:00 [DBG] Connection id "0HMNGS2FOPK2C" received FIN.
+2023-01-07 15:54:36.666 -03:00 [DBG] Connection id "0HMNGS2FOPK2D" received FIN.
+2023-01-07 15:54:36.698 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-07 15:54:36.698 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-07 15:54:36.796 -03:00 [DBG] Connection id "0HMNGS2FOPK2C" stopped.
+2023-01-07 15:54:36.796 -03:00 [DBG] Connection id "0HMNGS2FOPK2D" stopped.
+2023-01-07 15:54:36.801 -03:00 [DBG] Connection id "0HMNGS2FOPK2C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-07 15:54:36.807 -03:00 [DBG] Connection id "0HMNGS2FOPK2D" sending FIN because: "The Socket transport's send loop completed gracefully."
